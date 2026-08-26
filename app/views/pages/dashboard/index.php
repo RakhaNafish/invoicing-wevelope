@@ -40,7 +40,7 @@
                             </div>
                             <div class="finance-card-value">Rp<?= number_format($invoice_value, 0, ',', '.') ?></div>
                             <div class="finance-card-footer">
-                                <a href="../invoice/invoice.php">More info <i class="bi bi-arrow-right"></i></a>
+                                <a href="<?= BASEURL . 'invoice' ?>">More info <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                             </div>
                             <div class="finance-card-value">Rp<?= number_format($total_revenue, 0, ',', '.') ?></div>
                             <div class="finance-card-footer">
-                                <a href="../revenue/revenue.php">More info <i class="bi bi-arrow-right"></i></a>
+                                <a href="<?= BASEURL . 'revenue' ?>">More info <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                             </div>
                             <div class="finance-card-value">Rp<?= number_format($total_unpaid, 0, ',', '.') ?></div>
                             <div class="finance-card-footer">
-                                <a href="../outstanding/outstanding.php">More info <i class="bi bi-arrow-right"></i></a>
+                                <a href="<?= BASEURL . 'outstanding' ?>">More info <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@
                             </div>
                             <div class="finance-card-value">Rp<?= number_format($total_overdue, 0, ',', '.') ?></div>
                             <div class="finance-card-footer">
-                                <a href="../overdue/overdue.php">More info <i class="bi bi-arrow-right"></i></a>
+                                <a href="<?= BASEURL . 'overdue' ?>">More info <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -142,7 +142,7 @@
                                         </table>
                                     </div>
                                     <div class="text-center border-top py-2">
-                                        <a href="../invoice/invoice.php" class="btn btn-sm btn-link text-decoration-none">View All Transactions
+                                        <a href="<?= BASEURL . 'invoice' ?>" class="btn btn-sm btn-link text-decoration-none">View All Transactions
                                             <i class="bi bi-arrow-right ms-1"></i></a>
                                     </div>
                                 </div>
